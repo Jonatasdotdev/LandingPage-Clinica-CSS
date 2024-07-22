@@ -1,0 +1,222 @@
+div{
+    font-size: larger;
+    display:flex;
+    flex-direction: row;
+   
+    
+}
+
+i{
+    font-size: 79px;
+    color:palevioletred;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppinsbold;
+    background-color: white;
+    position:fixed;
+    width: 100%;
+    top:0;
+    margin-left: -24px;
+    z-index: 1000; 
+}
+#spam1{
+   font-family:poppinsmedium;
+}
+
+#span2{
+    color:rgb(250, 100, 167);
+    font-family: poppinsmedium;
+}
+#health{
+    font-family: poppinsmedium;
+    color:white;
+    
+}
+
+
+body{
+    max-width:1200px;
+    margin:0 auto;
+    padding-top: 95px;
+    padding:15px;
+    background-image: url("../components/Images/medium-shot-doctor-posing-studio.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+li{
+
+    display:inline-block;
+    margin: 20px;
+  
+}
+
+
+#appbutton{
+    border: 5px solid palevioletred;
+    padding:5px 2px;
+    background-color: palevioletred;
+    color:white;
+    font-family:poppinsbold;
+    margin-right: 24px;
+    
+}
+
+#button2{
+    border: 5px solid rgb(250, 100, 167);
+    padding:5px 2px;
+    background-color: rgb(250, 100, 167);
+    color:white;
+    font-family:poppinsbold;
+    margin-right: 24px;
+}
+#appbutton:hover{
+    transition:0.35;
+    transform: scale(1.1);
+    box-shadow:-4px 4px 0 rgb(200, 201, 204);
+    width: 195px;
+    
+}
+
+
+#button2:hover{
+    background-color:white;
+    color:blueviolet;
+    border-color: white;
+    transition: 0.6;
+}
+a{
+
+    color:rgb(51, 51, 50);
+    font-family: poppinslight;
+    font-size: 12px;
+}
+
+li:hover{
+transition:0.35;
+transform: scale(1.5);
+box-shadow:-4px 4px 0 rgb(200, 201, 204);
+border-radius: 2px;
+width: 83px;
+
+}
+article{
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 200px;
+    
+}
+img{
+  width: 280px;
+  position: relative;
+  z-index: 1; 
+}
+aside{
+    margin-top: 200px;
+    font-size: 56px;
+    line-height: 10px;
+    margin-left: 100px;
+ 
+}
+#textinho{
+    font-size:15px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    color:white;
+}
+.produto{
+   margin-top: 20px;
+   max-width: 1000px;
+   display:grid;
+   grid-template-columns:4fr 4fr 4fr;
+   grid-gap:20px; 
+   font-family: poppinslight;
+   color:white;
+  
+}
+
+.prod{
+  
+   text-align: center;
+   padding:15px 15px 40px;
+   background:rgb(2, 153, 191);
+   color: white;
+   margin-bottom: 20px;
+   object-fit: cover;
+ 
+}
+
+section{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px 45px;
+    background:rgb(2, 153, 191);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height: fit-content;
+    font-family: poppinsmedium;
+    color:white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-family:  poppinsmedium;
+    font-size:17px;
+   
+}
+form label{
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 10px;
+    outline: none;
+    border:0;
+    transition:all 0.5s;
+    margin-bottom: 20px;
+    
+}
+form input:focus{
+    border-radius:16px;
+}
+form textarea{
+    padding:10px;
+    border:0;
+    outline:none;
+    margin-bottom: 30px;
+    transition:all 0.5s;
+}
+form textarea:focus{
+    border-radius:16px;
+}
+
+form button{
+    cursor: pointer;
+    padding:10px;
+    font-size:16px;
+    background: transparent;
+    color:white;
+    border: 2px solid white;
+    transition:all 0.5s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+
+    background-color: rgb(8, 110, 252);
+    border-radius: 16px;
+}
+
