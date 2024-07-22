@@ -1,6 +1,8 @@
 # Clinica Medica - Landing Page
 
 Bem-vindo ao repositório da landing page para a Clinica Medica. Este projeto é uma página estática desenvolvida com HTML e CSS, projetada para fornecer uma interface intuitiva e atraente para usuários interessados em serviços médicos.
+Você pode visualizar o display na minha página da behance:
+https://www.behance.net/JonatasArielWebdev
 
 ## Estrutura do Projeto
 
